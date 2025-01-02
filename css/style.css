@@ -1,0 +1,685 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#Section {
+    width: 100%;
+}
+
+header div nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+
+}
+
+@media only screen and (min-width:320px) {
+
+    */ header img,
+    main img,
+    header div {
+        width: 100%;
+    }
+
+    #headerLogo img {
+        width: 200px;
+        margin: 10px;
+    }
+
+    /* hero part */
+    #mainWE p {
+
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    #mainWE h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    #mainWE {
+        margin: 18px;
+    }
+
+    main section section {
+        background-image: url('../images/MainBackGr.jpeg');
+        background-size: cover;
+        height: 550px;
+        text-align: center;
+        padding: 100px 10px;
+    }
+
+    #mainImageDiv h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        color: #542929;
+    }
+
+    #mainImageDiv p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    #mainCSSpan {
+        font-weight: 900;
+    }
+
+    .button {
+        background-color: #007bff;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    /* services section */
+    #services1 {
+        background-color: #E7EDF0;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #services1 h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #serSubHead {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .ser1Info {
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    #ser1Div1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #services1 img {
+        width: 320px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    #serheadiing {
+        text-align: center;
+        text-decoration: underline;
+        color: #4B8196;
+    }
+
+    /* services2 */
+    #services2 {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #ser2heading {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .ser2Info {
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    #ser2Div1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    #services2 img {
+        width: 320px;
+        height: auto;
+
+    }
+
+    /* services3 */
+    #services3 {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #ser3heading {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .ser3Info {
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    #services3 img {
+        width: 280px;
+        height: auto;
+
+    }
+
+    /* posioins  */
+    .position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 30px;
+    }
+
+    .poImg {
+        display: contents;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .poImg img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .poheading {
+        text-align: center;
+    }
+
+    .poheading h1 {
+        font-size: 25px;
+
+    }
+
+    .pobutton {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    #poinhe {
+        display: flex;
+        justify-content: center;
+    }
+
+    #poinhe h1 {
+        text-decoration: underline;
+
+    }
+
+    /* growiing */
+    #growing {
+        background-color: #F1F1F1;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+
+    #grow h1 {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    #grow p {
+        padding: 18px 20px;
+    }
+
+    #grow2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 14px;
+    }
+
+    .growDiv {
+        width: 45%;
+        color: #2E89AD;
+        padding-bottom: 30px;
+    }
+
+    .growDiv p {
+        font-size: 10px;
+    }
+
+    /* unlock */
+    #unlock {
+        background-color: #9C8585;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #unlock h1 {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /* footer */
+    footer {
+        background-color: #EBEADF;
+        width: 100%;
+    }
+
+    .footSubDiv {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .fsub2 {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+
+    .f2h1,
+    .f2p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fsub2 h1,
+    .fsub2 li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fsub2 ul {
+        list-style: none;
+    }
+
+    /* get touch */
+    #gettouchid {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        height: 100vh;   
+        margin-bottom: 20px;
+    }
+    
+    .GetTouch {
+        width: 50%;
+        background-color: #fff;
+        padding: 20px 40px;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+    
+
+    .GetTouch h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #222;
+    }
+
+    .GetTouch form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .GetTouch label {
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .GetTouch input,
+    .GetTouch textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333;
+        box-sizing: border-box;
+    }
+
+    .GetTouch input::placeholder,
+    .GetTouch textarea::placeholder {
+        color: #aaa;
+        font-size: 14px;
+    }
+
+    .GetTouch textarea {
+        resize: none;
+        height: 80px;
+    }
+
+    .GetTouch button {
+        background-color: #28a745;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .GetTouch button:hover {
+        background-color: #218838;
+    }
+
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+    header img,
+    main img,
+    header div {
+        width: 100%;
+    }
+
+    header nav a {
+        font-size: 20px;
+    }
+
+    #mainWE {
+        margin: 18px 200px;
+    }
+
+    /* servises hero */
+    #services2 {
+        padding: 25px 200px;
+    }
+
+    #ser1Div2 {
+        padding: 25px 200px;
+    }
+
+    /* service 3 */
+    #services3 {
+        padding: 25px 200px;
+    }
+
+    /* position */
+    .position {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding: 20px 200px;
+    }
+
+    /* growing */
+    #growing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #grow {
+        width: 60%;
+    }
+
+    #grow2 {
+        width: 60%;
+    }
+
+    /* get int touch  */
+    .GetTouch {
+        padding: 20px 30px;
+        max-width: 600px;
+    }
+
+    .GetTouch h1 {
+        font-size: 24px;
+    }
+
+    .GetTouch form {
+        gap: 15px;
+    }
+
+    .GetTouch label {
+        font-size: 16px;
+    }
+
+    .GetTouch input,
+    .GetTouch textarea {
+        font-size: 16px;
+    }
+
+    .GetTouch button {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header section {
+        display: flex;
+        align-items: center;
+    }
+
+    header div {
+        display: inline-block;
+        vertical-align: top;
+        /* width: auto; */
+    }
+
+    #headerLogo img {
+        width: 300px;
+        margin-left: 180px;
+    }
+
+    header nav a {
+        font-size: 20px;
+    }
+
+    main section section {
+        height: 550px;
+    }
+
+    #mainWE {
+        margin: 80px 150px;
+    }
+
+    #mainWE p {
+
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+
+    #mainWE h2 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    /* services hero */
+
+    #services1 h1 {
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #ser1Div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #ser1Div1 {
+        margin-left: 220px;
+    }
+
+    #serSubHead {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .ser1Info {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+
+    /* Services2 */
+    #services2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 100px 10px;
+    }
+
+    #ser2Div1 {
+        width: 790px;
+    }
+
+    #ser2heading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .ser2Info {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+
+    /* Services3 */
+    #services3 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 100px 200px;
+
+    }
+
+    #ser3heading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .ser3Info {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+
+    /* position */
+    #positions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .position {
+        width: 30%;
+        margin: 20px;
+        padding: 20px 40px;
+
+    }
+
+    .poImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .poheading h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .poheading p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #poinhe h1 {
+        font-size: 50px;
+    }
+
+    /* growing */
+    #growing {
+        width: 100%;
+    }
+
+    #grow2h1 {
+        font-size: 40px;
+    }
+
+    #grow {
+        width: 100%;
+    }
+
+    #grow h1 {
+        font-size: 50px;
+    }
+
+    #grow p {
+        font-size: 20px;
+        padding: 50px 200px;
+    }
+
+    .growDiv {
+        width: 23%;
+        align-content: space-evenly;
+    }
+
+    .growDiv h1 {
+        font-size: 55px;
+        padding: 20px;
+    }
+
+    .growDiv p {
+        font-size: 15px;
+    }
+
+    /* get in touch  */
+    .GetTouch {
+        padding: 30px 40px;
+        max-width: 800px;
+    }
+
+    .GetTouch h1 {
+        font-size: 28px;
+    }
+
+    .GetTouch form {
+        gap: 20px;
+    }
+
+    .GetTouch label {
+        font-size: 18px;
+    }
+
+    .GetTouch input,
+    .GetTouch textarea {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .GetTouch button {
+        font-size: 20px;
+    }
+
+}
